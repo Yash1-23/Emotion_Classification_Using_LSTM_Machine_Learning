@@ -14,23 +14,34 @@ streamlit run app.py
 
 ## How It Works
 1.Text Input: User inputs text (e.g., "I am feeling so happy today").
+
 2.Text Preprocessing:
   Removes non-alphabetic characters.
   Converts text to lowercase.
   Removes stopwords and applies stemming.
+
 3.Feature Extraction: Converts text into a numerical representation using TF-IDF.
+
 4.Emotion Prediction:
   The LSTM model processes the numerical features.
   Outputs the predicted emotion label (e.g., Happy, Sad, Angry, etc.).
+
 5.Display Result: Shows the predicted emotion to the user.
 
 ## Model Details
+
 Architecture: LSTM
+
 Input Features: TF-IDF vectorized text data.
+
 Training Dataset: The model was trained on a labeled emotion dataset with categories such as:
+
 Happy
+
 Sad
+
 Angry
+
 Fear
 Neutral
 Preprocessing:

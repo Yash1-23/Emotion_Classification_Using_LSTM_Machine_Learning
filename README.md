@@ -43,8 +43,13 @@ Sad
 Angry
 
 Fear
+
 Neutral
+
 Preprocessing:
+
 Tokenization
+
 Stopword removal
+
 Stemming
